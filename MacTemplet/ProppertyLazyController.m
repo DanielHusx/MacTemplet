@@ -109,6 +109,23 @@
     self.textViewOne.string = [self createResult:self.textView.string];
 }
 
+- (IBAction)showAlert:(id)sender {
+//    NSAlert *alert = NSAlert createAlertTitle:@"提示" msg:@"Sample Test" btnTitles:@[ktit]
+//    NSAlert = [NSAlert alertWithMessageText:@"Sample Test" defaultButton:@"OK" alternateButton:@"DO Nothing" otherButton:@"CANCEL" informativeTextWithFormat:@"TEST",nil];
+//    [self.myAlert beginSheetModalForWindow:[self window]
+//                         modalDelegate:self
+//                        didEndSelector:@selector(errorAlertDidEnd:returnCode:contextInfo:)
+//                           contextInfo:nil];
+//
+//    NSArray *buttonArray = [self.myAlert buttons];
+//    NSLog(@"Button Arrays %@",buttonArray);
+//
+//    //Close by itself without a mouse click by the user
+//    //Assuming the Default Button as the Second one "Do Nothing
+//    NSButton *myBtn = buttonArray[2];
+//    [myBtn performClick:self.myAlert];
+}
+
 #pragma mark -lazy
 
 -(NNTextView *)textView{

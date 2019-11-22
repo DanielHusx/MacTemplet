@@ -31,21 +31,21 @@ static NSArray * _weekList = nil;
 
 + (NSArray *)dayList{
     if (!_dayList) {
-        _dayList = [kDes_day componentsSeparatedByString:@","];
+        _dayList = [kDesDay componentsSeparatedByString:@","];
     }
     return _dayList;
 }
 
 + (NSArray *)monthList{
     if (!_monthList) {
-        _monthList = [kDes_month componentsSeparatedByString:@","];
+        _monthList = [kDesMonth componentsSeparatedByString:@","];
     }
     return _monthList;
 }
 
 + (NSArray *)weekList{
     if (!_weekList) {
-        _weekList = [kDes_week componentsSeparatedByString:@","];
+        _weekList = [kDesWeek componentsSeparatedByString:@","];
     }
     return _weekList;
 }

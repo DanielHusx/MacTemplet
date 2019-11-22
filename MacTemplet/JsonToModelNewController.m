@@ -363,7 +363,7 @@
     self.textLabel.textColor = result ? NSColor.lightGreen : NSColor.redColor;
     
     if (!result) {
-        NSAlert * alert = [NSAlert createAlertTitle:@"警告" msg:@"Error：Json is invalid" btnTitles:@[kActionTitle_Know]];
+        NSAlert * alert = [NSAlert createAlertTitle:@"警告" msg:@"Error：Json is invalid" btnTitles:@[kTitleKnow]];
         [alert beginSheetModalHandler:^(NSModalResponse returnCode) {
             DDLog(@"%@", @(returnCode));
         }];

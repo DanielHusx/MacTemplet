@@ -16,7 +16,6 @@ extension NSImage {
         let screenScale: CGFloat = NSScreen.main?.backingScaleFactor ?? 1.0
         
         if isPixels {
-            
             toSize.width = to.width / screenScale
             toSize.height = to.height / screenScale
         }
